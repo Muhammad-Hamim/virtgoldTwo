@@ -89,17 +89,17 @@ function selectOption(e) {
     priceValue = parseFloat(7.99).toFixed(2);
     price.innerText = priceValue;
     subTotal.innerText = priceValue;
-    topSubTotal.innerText = subTotal.value;
+    topSubTotal.innerText = priceValue;
   } else if (selectValue === "Raid Level 300 (Excited Mood)") {
     priceValue = parseFloat(17.59).toFixed(2);
     price.innerText = priceValue;
     subTotal.innerText = priceValue;
-    topSubTotal.innerText = subTotal.value;
+    topSubTotal.innerText = priceValue;
   } else if (selectValue === "Raid Level 450 (Melancholic Mood)") {
     priceValue = parseFloat(27.39).toFixed(2);
     price.innerText = priceValue;
     subTotal.innerText = priceValue;
-    topSubTotal.innerText = subTotal.value;
+    topSubTotal.innerText = priceValue;
   }
 }
 
